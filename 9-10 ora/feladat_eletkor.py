@@ -3,6 +3,8 @@ eletkor = int(input("Kérem adja meg az életkorát: "))
 
 #Életkor kategória megállapítása
 if eletkor < 0:
+    print(f"Ez a szám nem megjeleníthető")
+elif eletkor == 0:
     print(f" még nem születtél meg!")
 elif eletkor < 5:
     print(f" még nem jársz általános iskolába!")
